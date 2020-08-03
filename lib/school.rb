@@ -19,8 +19,10 @@ class School
   end
   
   def sort
+    collection = {}
     @roster.collect do |key, value|
-      @roster[key] = value.sort
+     # @roster[key] = value.sort
+      collection << key[value.sort]
     end
   end
 end
