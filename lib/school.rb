@@ -24,6 +24,8 @@ class School
      # @roster[key] = value.sort
       collection << key[value.sort]
     end
+    collection
   end
+  
 end
 
