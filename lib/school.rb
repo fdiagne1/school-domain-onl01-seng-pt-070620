@@ -22,7 +22,7 @@ class School
     collection = {}
     @roster.each do |grade, students|
      values = students.sort
-      collection << key[values]
+      collection << grade[values]
     end
     collection
   end
