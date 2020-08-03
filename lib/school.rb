@@ -13,7 +13,7 @@ class School
   end
   
   def grade(grade)
-    return name
+    return @roster[grade]
   end
   
   def sort
