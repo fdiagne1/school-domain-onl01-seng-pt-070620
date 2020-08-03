@@ -21,8 +21,8 @@ class School
   def sort
     collection = {}
     @roster.collect do |key, value|
-     # @roster[key] = value.sort
-      collection << key[value.sort]
+     values = value.sort
+      collection << key[values]
     end
     collection
   end
