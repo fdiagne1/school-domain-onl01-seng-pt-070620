@@ -13,7 +13,7 @@ class School
   end
   
   def grade(grade)
-    @grade = grade
+    return name
   end
   
   def sort
